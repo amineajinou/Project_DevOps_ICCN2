@@ -7,7 +7,7 @@ A web application to extract links and anchor texts from a given web page and an
 * The link extractor JSON API service (written in Python) is moved in a separate folder
 * A web front-end application is written in PHP that talks to the JSON API
 * The PHP application is mounted inside the official php:7-apache Docker image for easier modification during the development
-* The web application is accessible at http://<hostname>[:<prt>]/?url=<url-encoded-url>
+* The web application is accessible at http://hostname:port/?url=<url-encoded-url>
 * An environment variable API_ENDPOINT is used inside the PHP application to configure it to talk to the JSON API server
 * There is a `Dockerfile` for the PHP web application to avoid live file mounting
 * A Redis container is added for caching using the official Redis Docker image
