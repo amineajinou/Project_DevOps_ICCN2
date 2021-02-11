@@ -43,8 +43,8 @@
 <div class="caption text-center">
   <section>
       <form action="/">
-        <input class="btn-lg" type="text" name="url" placeholder="http://example.com/" value="<?php echo $url; ?>">
-        <a class="btn btn-outline-light btn-lg" href="#course">Extract Links</a>
+        <input class="btn-lg" type="text" name="url" placeholder="http://example.com/">
+        <input class="btn btn-outline-light btn-lg" type="submit" value="Extract Links">
     </section>
     
     <?php if(isset($err)): ?>
